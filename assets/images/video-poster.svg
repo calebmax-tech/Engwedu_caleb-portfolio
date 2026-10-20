@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#163f36"/>
+    <circle cx="1100" cy="120" r="300" fill="none" stroke="#638b76" stroke-width="2"/>
+    <circle cx="1100" cy="120" r="240" fill="none" stroke="#638b76" stroke-width="2"/>
+    <text x="90" y="130" fill="#c2d5a9" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">ENGWEDU CALEB</text>
+    <text x="90" y="300" fill="#f6f4ed" font-family="Georgia,serif" font-size="82">My motivation.</text>
+    <text x="90" y="370" fill="#f6f4ed" font-family="Arial,sans-serif" font-size="28">Why I chose Software Engineering</text>
+    <text x="90" y="600" fill="#c2d5a9" font-family="Arial,sans-serif" font-size="22">YOUR PERSONAL RECORDING GOES HERE</text>
+</svg>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Engwedu Caleb, Bachelor of Software Engineering student at Bugema University. Explore my learning journey, interests, and portfolio.">
+    <meta name="theme-color" content="#163f36">
+    <title>Gallery | Engwedu Caleb</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendor/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header sticky-top">
+        <nav class="navbar navbar-expand-md" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">CALEB<span class="brand-dot">.</span><span class="brand-sub">SOFTWARE ENGINEERING</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ms-auto align-items-md-center gap-md-3">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html" aria-current="page">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="page-heading container">
+            <p class="eyebrow">02 / MOMENTS &amp; MOTIVATION</p>
+            <h1>A glimpse into<br>my <span class="serif-word">journey.</span></h1>
+            <p class="lead-copy">A space for the people, experiences, and ideas that shape my learning.</p>
+        </section>
+        <section class="container section-bottom" aria-labelledby="motivation-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE WHY BEHIND THE WORK</p>
+                    <h2 id="motivation-heading">My motivation, in my words.</h2>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-8">
+                    <figure class="video-frame">
+                        <!-- Add your own recording at this exact path before submission. -->
+                        <video controls preload="none" poster="assets/images/video-poster.svg" aria-label="Caleb's motivation for studying Software Engineering" aria-describedby="video-caption">
+                            <source src="assets/media/motivation.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <figcaption id="video-caption">My motivation for pursuing Software Engineering at Bugema University. Recording pending.</figcaption>
+                    </figure>
+                    <p class="media-notice">Video not added yet. Place your own recording in <code>assets/media/motivation.mp4</code>. The mandatory video requirement is incomplete until you do.</p>
+                </div>
+                <div class="col-lg-4 video-note">
+                    <span class="card-number">A PERSONAL INTRODUCTION</span>
+                    <h3>Every journey<br>begins with a why.</h3>
+                    <p>In your recording, introduce yourself, explain why you chose Software Engineering, describe what you hope to learn, and share the contribution you would like to make.</p>
+                    <p class="small-note">Speak in your own words. Add captions or a transcript when your video is ready.</p>
+                </div>
+            </div>
+        </section>
+        <section class="muted-section section-space">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">THE PHOTO JOURNAL</p>
+                        <h2>Small moments. A bigger story.</h2>
+                    </div>
+                    <p>My portrait, with room for more memories as the journey unfolds.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <figure class="gallery-card">
+                            <button class="photo-button" type="button" data-bs-toggle="modal" data-bs-target="#portraitModal" aria-label="Enlarge Caleb's portrait">
+                                <img src="assets/images/caleb.png" alt="Engwedu Caleb seated for his portfolio portrait" width="990" height="1561" loading="lazy">
+                                <span class="enlarge-label">VIEW PORTRAIT</span>
+                            </button>
+                            <figcaption><span class="card-number">01 / PORTRAIT</span><h3>The face behind the portfolio</h3><p>Engwedu Caleb, Software Engineering student.</p></figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <figure class="gallery-card">
+                            <div class="gallery-placeholder"><span aria-hidden="true">02</span><p>Your campus photo goes here</p></div>
+                            <figcaption><span class="card-number">02 / COMING SOON</span><h3>Life on campus</h3><p>Add your own photograph and a truthful caption.</p></figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <figure class="gallery-card">
+                            <div class="gallery-placeholder alternate"><span aria-hidden="true">03</span><p>Your project screenshot goes here</p></div>
+                            <figcaption><span class="card-number">03 / COMING SOON</span><h3>Learning in practice</h3><p>Add a screenshot of work you have completed.</p></figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal fade" id="portraitModal" tabindex="-1" aria-labelledby="portraitTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="portraitTitle">Engwedu Caleb</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close portrait"></button>
+                    </div>
+                    <div class="modal-body portrait-modal-body">
+                        <img src="assets/images/caleb.png" alt="Full portrait of Engwedu Caleb" width="990" height="1561">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <a class="footer-brand" href="index.html">Let's build something meaningful<span>.</span></a>
+                <a class="btn btn-outline-light" href="contact.html">Start a conversation <span aria-hidden="true"></span></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Engwedu Caleb.</p>
+                <nav class="footer-links" aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                </nav>
+                <div class="social-links" aria-label="Professional profiles awaiting setup">
+                    <span class="social-pending" title="GitHub profile to be added"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.81c.85 0 1.71.11 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg><span class="visually-hidden">GitHub profile to be added</span></span>
+                    <span class="social-pending" title="LinkedIn profile to be added"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 9h4v12H3V9Zm6 0h4v1.64C13.7 9.5 14.8 9 16.2 9c3.2 0 4.8 2 4.8 5.5V21h-4v-6c0-1.7-.6-2.5-1.9-2.5-1.4 0-2.1 1-2.1 2.5v6H9V9Z"/></svg><span class="visually-hidden">LinkedIn profile to be added</span></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
