@@ -1016,3 +1016,19 @@ p {
         transition: none !important;
     }
 }
+
+.gallery-placeholder img{
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-placeholder img:hover{
+    transform: scale(1.05);
+}
+
+.gallery-placeholder.alternate img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
